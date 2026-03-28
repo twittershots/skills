@@ -1,3 +1,4 @@
+---
 name: twittershots
 description: |
   Generate high-quality screenshots of Twitter/X posts using the TwitterShots API.
@@ -7,6 +8,15 @@ description: |
   "capture tweet", "tweet image". Triggers on tweet URLs (twitter.com/*/status/* or x.com/*/status/*)
   or tweet IDs. Default to format=png and theme=light without asking follow-up questions;
   if the user explicitly provides format and/or theme, use the user-provided values.
+homepage: https://github.com/twittershots/skills
+source: https://github.com/twittershots/skills
+credentials:
+  - name: TWITTERSHOTS_API_KEY
+    description: API key from https://twittershots.com/settings/keys
+    required: true
+dependencies:
+  python:
+    - requests
 ---
 
 # TwitterShots Skill
