@@ -1,4 +1,4 @@
-# TwitterShots Skill
+# TwitterShots Skill 1.0.1
 
 An Agent Skill for generating high-quality screenshots of Twitter/X posts.
 
